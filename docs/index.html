@@ -163,36 +163,59 @@
       </div>
 
       <div class="row content">
-        <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
           <br>
           <br>
           <h3>Navigating the Map</h3>
           <h4>Map Feature 1: Procedure Rate</h4>
           <p>
             <ul>
-              <li>Procedure</li>
-              <li>
-                Rate Type
-                <ul>
-                  <br>
-                  <li>List Price</li>
-                  <li>Cash Rate</li>
-                  <li>Commercial Negotiated Rate</li>
-                  <li>Public Rate</li>
+              <li>Procedure: </li>
+              <ul style="padding-left: 20px;">
+                <li>Select from 14 different procedures</li>
+              </ul>
+              <li>Rate Type: </li>
+                <ul style="padding-left: 20px;">
+                  <li>List Price: The base price set by healthcare providers. Often the starting point for negotiations between healthcare providers and insurance companies.</li>
+                  <li>Cash Price: The price offered to patients who choose to pay for their medical services without insurance.</li>
+                  <li>Commercial Negotiated Rate: The price negotiated between healthcare providers and private insurance companies.</li>
+                  <li>Public Rate: The price including the reimbursement rates set by government-funded insurance programs such as Medicare and Medicaid.</li>
                 </ul>
               </li>
-              <li>Procedure Rate Quantile</li>
-            </ul>
-          </p>
-          <h4>Map Feature 2: Social Feature</h4>
-          <p>
-            <ul>
-              <li>Procedure</li>
-              <li>Rate Type</li>
-              <li>Procedure Rate Quantile</li>
+              <!-- <li>Procedure Rate Quantile</li> -->
+              <li>Standardize Map by:</li>
+              <ul style="padding-left: 20px;">
+                <li>Select from 4 geographic levels</li>
+              </ul>
             </ul>
           </p>
         </div>
+        <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <br>
+          <br>
+          <br>
+          <br>
+          <h4>Map Feature 2: Social Feature</h4>
+          <p>
+            <ul>
+              <li>Social Feature: </li>
+              <ul style="padding-left: 20px;">
+                <li>Select from 44 different social features</li>
+              </ul>
+              <li>Social Feature Weighted: </li>
+              <ul style="padding-left: 20px;">
+                <li>Total Population: Allows for a more accurate comparison between regions with varying population sizes.</li>
+                <li>Total Day Population: Allows for an accurate comparison where the daytime population is significantly different from the residential population.</li>
+                <li>Area: Helps to identify areas where access to healthcare or other public services is limited due to distance or low population density.</li>
+              </ul>
+              <li>Standardize Map by:</li>
+              <ul style="padding-left: 20px;">
+                <li>Select from 4 geographic levels</li>
+              </ul>
+            </ul>
+          </p>
+        </div>
+      </div>
 
         <div class="row content">
           <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
@@ -201,75 +224,23 @@
             <h3>Empowering Communities through SDoH and SVI Insights</h3>
             <!-- <h4>Harnessing the Power of Social Determinants of Health and Social Vulnerability Index for a Healthier Future</h4> -->
             <p>
-              Today, nonprofit hospitals were originally founded with the intention of helping the poor and vulnerable. However, a recent <a href="https://www.nytimes.com/2023/01/25/podcasts/the-daily/nonprofit-hospitals-investigation.html?" target="_blank"> New York Times</a> investigation has discovered that many of these hospitals are now prioritizing profits over their original mission. In light of this concerning trend, our project is committed to addressing both Social Determinants of Health (SDoH) and community vulnerability to optimize healthcare solutions and manage hospital procedure costs effectively, with a focus on serving those in need.
+              In our modeling efforts, we utilize the <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html" target="_blank">CDC/ATSDR Social Vulnerability Index (SVI)</a>  along with SDoH factors as instrumentals to better understand the complex interplay between social, economic, and environmental factors that contribute to a community's overall vulnerability and its impact on healthcare procedure costs.
             </p>
             <p>
-              In our modeling efforts, we utilize the CDC/ATSDR Social Vulnerability Index (SVI) along with SDoH factors as instrumentals to identify communities that are at a higher risk for overpriced healthcare costs. By integrating SVI and SDoH data into our analyses, we can better understand the complex interplay between social, economic, and environmental factors that contribute to a community's overall vulnerability and its impact on healthcare costs.
+              Our aim is to promote more efficient and cost-effective healthcare solutions that prioritize the needs of underprivileged communities, ensuring that the core values of hospitals are upheld and that the pursuit of profits does not overshadow their responsibility to serve those in need.
             </p>
             <p>
-              This approach allows us to develop targeted interventions and policies that not only address the underlying SDoH but also enhance community resilience in the face of our country's growing inequality. Our aim is to promote more efficient and cost-effective healthcare solutions that prioritize the needs of underprivileged communities, ensuring that the core values of nonprofit hospitals are upheld and that the pursuit of profits does not overshadow their responsibility to serve those in need.
+              Below you will find an overview for one of the SVI datasources used from the Centers for Disease Control and Prevention (CDC/ATSDR).  
+            </p>
+            <img src="assets/img/SVI.jpg" alt="A brief description of the image" style="width: 50%; max-width: desired_width;">
+            <p>
+              Visit our Data page to view all SDoH datasources used in our research.
             </p>
           </div>
         </div>
         
-
-
         <!-- <div class="section-header">
           <h2>Overview</h2> -->
-
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <!-- <h3>Discover Healthcare Costs in Your Area</h3> -->
-            <!-- <style>
-                ul {
-                  text-align: left;
-                }
-              </style> -->
-            <ul>
-              <!-- <li>
-                  As of 2021, 27.2 million (8.3%) eligible Americans did not have health insurance at any point during
-                  the year. People without insurance are less likely to have primary care providers and may underutilize
-                  care because they cannot afford it.
-                </li> -->
-              <!-- <li>
-                  An additional 28% of working Americans also enrolled in high deductible health plans (HDHPs) in 2021.
-                  These patients also may be responsible for the full cash rate of the service, set by the hospital,
-                  rather than a rate negotiated by their provider.
-                </li> -->
-            </ul>
-            <!-- <p><i>According to <a href="https://www.census.gov/library/publications/2022/demo/p60-278.html">US Census
-                    Bureau
-                  </a></i></p> -->
-          </div>
-          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <h3>Key Challenges</h3>
-              <style>
-                ul {
-                  text-align: left;
-                }
-              </style>
-              <ul>
-                <li>Prior research has shown compliance may skew the analysis12; ie. compliance may be an important
-                  covariate leading to null response; we should be able to test this by evaluating correlation between
-                  social vulnerability and Turquoise’s proprietary “transparency” score </li>
-                <li>We have already detected some noise in the data showing extreme variance in reported rates that will
-                  have to be detected and controlled</li>
-                <li>Quantifying social vulnerability at a granular level is difficult. There are existing indices, but
-                  how should we scope this work?</li>
-                <li>How do we control for social and regulatory covariates across county, city, and state lines?</li>
-              </ul> -->
-
-
-          <!-- <ul> -->
-
-          <!-- <li><i class="ri-arrow-right-fill"></i>Insurance</li>
-                      <li><i class="ri-arrow-right-fill"></i>Prices</li> -->
-
-          <!-- </ul> -->
-          <!-- <a href=""
-                     class="btn-learn-more">Learn More about Research Methods</a> -->
-        </div>
 
 
 
