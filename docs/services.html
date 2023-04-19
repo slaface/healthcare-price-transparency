@@ -56,7 +56,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">Case Studies</a></li>
+          <!-- <li><a href="about.html">Case Studies</a></li> -->
           <li><a href="services.html">Data</a></li>
           <li><a href="blog.html">Model Design</a></li>
           <!-- <li><a href="portfolio.html">Project Design</a></li> -->
@@ -125,123 +125,136 @@
                 <figcaption style="text-align: center; font-size: smaller; margin-top: 4px;">The dataset contains 4,000 hospitals across 50 states</figcaption>
               </figure>
               </div>
-    
             </div>
-    
-    
-    
-    
+
             <!-- ======= Tableau Image 1 Section ======= -->
             <section id="models" class="about">
               <div class="container">
-                <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300" style="margin-left: 2in;">
-                  <div class='tableauPlaceholder' id='viz1680407630500' style='position: relative'><noscript><a
-                        href='#'><img alt='Dashboard 1 '
-                          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hp&#47;hpt&#47;Dashboard1&#47;1_rss.png'
-                          style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                      <param name='embed_code_version' value='3' />
-                      <param name='site_root' value='' />
-                      <param name='name' value='hpt&#47;Dashboard1' />
-                      <param name='tabs' value='no' />
-                      <param name='toolbar' value='yes' />
-                      <param name='static_image'
-                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hp&#47;hpt&#47;Dashboard1&#47;1.png' />
-                      <param name='animate_transition' value='yes' />
-                      <param name='display_static_image' value='yes' />
-                      <param name='display_spinner' value='yes' />
-                      <param name='display_overlay' value='yes' />
-                      <param name='display_count' value='yes' />
-                      <param name='language' value='en-US' />
-                    </object>
-                  </div>
-                  <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1680407630500');
-                    var vizElement = divElement.getElementsByTagName('object')[0];
-                    if (divElement.offsetWidth > 800) { vizElement.style.width = '900px'; vizElement.style.height = '527px'; }
-                    else if (divElement.offsetWidth > 500) { vizElement.style.width = '900px'; vizElement.style.height = '527px'; }
-                    else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; }
-                    var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-                  </script>
-                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300" style="margin-left: 1in;">
+                  <figure>
+                    <div class='tableauPlaceholder' id='viz1680407630500' style='position: relative'><noscript><a
+                          href='#'><img alt='Dashboard 1 '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hp&#47;hpt&#47;Dashboard1&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='hpt&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hp&#47;hpt&#47;Dashboard1&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                      </object>
+                    </div>
+                    <script type='text/javascript'>
+                      var divElement = document.getElementById('viz1680407630500');
+                      var vizElement = divElement.getElementsByTagName('object')[0];
+                      if (divElement.offsetWidth > 800) { vizElement.style.width = '900px'; vizElement.style.height = '527px'; }
+                      else if (divElement.offsetWidth > 500) { vizElement.style.width = '900px'; vizElement.style.height = '527px'; }
+                      else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; }
+                      var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                    </script>
+                    <!-- <figcaption style="text-align: center; font-size: smaller; margin-top: 4px;"> Dataset containing 14 shoppable services and their median cash and commerical rates. The data was obtained in the year 2022</figcaption> -->
+                    </div>
+                  <figure>
               </div>
             </section>
     
+           <!-- ======= Other datasets ======= -->
+           <div class="row content">
+            <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+              <h3 style="margin-top: 25px">Geographic Dataset</h3>
+              <h4>Google Maps API</h4>
+              <p>
+                We geocoded each hospital provider's address by returning the Lat Long from Google Maps API and thus mapped our 
+                Census data at 4 levels: Census Divison, Census Region, State, and National. <a href="https://developers.google.com/maps" class="btn-learn-more">Learn more at Developers.Google.com </a>
+              </p>
+            </div>    
     
-    
-    
-    
+  
             <!-- ======= Other datasets ======= -->
             <div class="row content">
               <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                <h3 style="margin-top: 25px">Other Datasets</h3>
-                <h4>2. CDC/ATSDR SVI</h4>
+                <h3 style="margin-top: 25px">SDoH Dataset</h3>
                 <p>
-                  The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 16 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.                  <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html" class="btn-learn-more">Learn more at ATSDR.CDC.gov </a>
+                  Below are the datasets we used to create our SDoH variables. Each dataset is listed with a brief description and a link to the source.
                 </p>
-                <h4>3. CMS Cost Reports</h4>
+                <img src="assets/img/Social_Variables.jpg" alt="A brief description of the image" style="width: 100%; max-width: desired_width;">
+                <br>
+                <br>
+                <br>
+                <h4>CDC and Agency for Toxic Subtances and Disease Registry (CDC/ATSDR)</h4>
                 <p>
-                  Centers for Medicare & Medicaid Services (CMS) cost reports contain vital information on facility characteristics, utilization data, cost and charges by cost center, Medicare settlement data, and financial statement data.
+                  The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 16 U.S. census variables to help local officials 
+                  identify communities that may need support before, during, or after disasters.<a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html" class="btn-learn-more">Learn more at ATSDR.CDC.gov </a>
+                </p>
+                <h4>CMS Cost Reports</h4>
+                <p>
+                  Centers for Medicare & Medicaid Services (CMS) cost reports contain vital information on facility characteristics, 
+                  utilization data, cost and charges by cost center, Medicare settlement data, and financial statement data.
                   <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
                 </p>
-                <h4>4. Census American Community Survey (ACS)</h4>
+                <h4>Census American Community Survey (ACS)</h4>
                 <p>
-                  The following datasources make up our final dataset:
-                <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  The ACS is an extensive annual survey conducted by the U.S. Census Bureau 
+                  that provides critical insights into the social, economic, and demographic characteristics of the U.S. population.
+                <a href="https://www.census.gov/programs-surveys/acs/data.html" class="btn-learn-more">Learn more at Census.gov </a>
                 </p>
-                <h4>5. American Hospital Assoc. (AHA)</h4>
+                <h4>American Hospital Assoc. (AHA)</h4>
                 <p>
-                  The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  The Herfindahl-Hirschman Index (HHI) is a widely used measure of market concentration that reflects the 
+                  degree of competition among hospitals within a specific geographic area. As a 
+                  leading organization representing hospitals and healthcare networks, the AHA collects and 
+                  compiles data from various sources, ensuring the HHI's accuracy and relevance.
+                  <a href="https://www.ahadata.com/" class="btn-learn-more">Learn more at AHAData.com </a>
                 </p>
-                <h4>6. US Health Resources & Services Admin; Area Health Resource Files</h4>
+                <h4>US Health Resources & Services Admin (HRSA); Area Health Resource Files</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://data.hrsa.gov/topics/health-workforce/ahrf" class="btn-learn-more">Learn more at Data.HRSA.gov </a>
 
                 </p>
-                <h4>7. Homeland Infrastructure Foundation Level Data</h4>
+                <h4>Homeland Infrastructure Foundation Level Data</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://hifld-geoplatform.opendata.arcgis.com/search?collection=Dataset" class="btn-learn-more">Learn more at HIFLD-Geoplatform.OpenData.Arcgis.com </a>
 
                 </p>
-                <h4>8. LTC Hospital Performance Metric Reports</h4>
+                <h4>LTC Hospital Performance Metric Reports</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://ltcdatasolutions.com/our-reports/los-readmissions-reports" class="btn-learn-more">Learn more at LTCDataSolutions.com </a>
 
                 </p>
-                <h4>9. AHRQ; Agency for Healthcare Research and Quality</h4>
+                <h4>AHRQ; Agency for Healthcare Research and Quality</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://meps.ahrq.gov/data_stats/nhc_data_collection.shtml" class="btn-learn-more">Learn more at AHRQ.gov </a>
 
                 </p>
-                <h4>10. CMS Provider of Service Files</h4>
+                <h4>CMS Provider of Service Files</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Provider-of-Services" class="btn-learn-more">Learn more at CMS.gov </a>
 
                 </p>
-                <h4>11. Feeding America; Map the Meal Gap; Food Security</h4>
+                <h4>Feeding America; Map the Meal Gap; Food Security</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
+                  <a href="https://map.feedingamerica.org/" class="btn-learn-more">Learn more at FeedingAmerica.gov </a>
 
                 </p>
-                <h4>12. US Health Resources & Services Admin; Medically Underserved Area Data</h4>
+                <h4>US Health Resources & Services Admin; Medically Underserved Area Data</h4>
                 <p>
                   The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
-
-                </p>
-                <h4>13. Google Maps API</h4>
-                <p>
-                  The following datasources make up our final dataset:
-                  <a href="https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/cost-reports" class="btn-learn-more">Learn more at CMS.gov </a>
-
+                  <a href="https://data.hrsa.gov/tools/shortage-area/mua-find" class="btn-learn-more">Learn more at Data.HRSA.gov </a>
                 </p>
               </div>
     
