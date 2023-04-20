@@ -108,15 +108,18 @@
                 <p>
                   We employed Quantile Regression using the Least Squares method on a dataset with 586,095 observations. The model's performance was evaluated using the pseudo R-squared value.
                   <p>
+                 <p>
+                  In conclusion, this Quantile Regression model demonstrates various relationships between the rate_log and the principal components used as independent variables. Many of these principal components have a statistically significant impact on rate_log, while a few do not show a significant relationship.
+                  <p>
               <h5> Results Summary </h5>
               <p>
-                Pseudo R-squared: Our model explains approximately 9.59% of the variability in the dependent variable 'rate_log' as indicated by the pseudo R-squared value of 0.09590.
+                Pseudo R-squared: Our model explains approximately 16.76% of the variability in the dependent variable 'rate_log' as indicated by the pseudo R-squared value of 0.1676.
               </p>
               <p>
-                Coefficients: The model estimated coefficients for each of the independent variables (principal components). These coefficients indicate the direction and magnitude of the relationship between each independent variable and the dependent variable 'rate_log'. For instance, a positive coefficient suggests a positive relationship, while a negative coefficient indicates a negative relationship.              
+                Coefficients: The coefficients (coef) represent the change in rate_log for a one-unit increase in the corresponding principal component while holding all other principal components constant. The model includes 45 principal components as independent variables. Some coefficients have a positive relationship with rate_log, while others have a negative relationship. This suggests that different principal components have varying effects on the dependent variable, rate_log.             
               </p>
               <p>
-                Statistical Significance: Most of the principal components were found to be statistically significant predictors of the dependent variable 'rate_log', as their p-values were less than 0.05. However, some components (such as 'pca13' and 'pca21') were not statistically significant based on their p-values and confidence intervals.              
+                Statistical Significance: Statistical significance is assessed using the p-values (P>|t|) for each principal component. Most of the principal components show a statistically significant relationship with the rate_log, as their p-values are less than 0.05. However, there are a few exceptions: pca7 (p=0.215) and pca24 (p=0.732), which do not exhibit a statistically significant relationship with the dependent variable, rate_log.              
               </p>
               <h5> Coefficients Table </h5>
               <br>
